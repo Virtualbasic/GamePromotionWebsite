@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+body{
+    background-image: url(bckg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+
+}
+.ReportBox{
+    background-color: #4b4646;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 30%;
+    top: 200px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 2px 5px 25px   #932929;
+}
+
+.input {
+    border-radius: 1px;
+    border: none;
+    background-color: #932929;
+}
+.inputRep{
+    border-radius: 1px;
+    border: none;
+    background-color: #932929;
+}
+.buttonSend{
+    position: relative;
+    top: 450px;
+    left:auto;
+    padding: 9px 25px;
+    background-color: #932929;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s; 
+}.buttonSend:hover{
+    background-color: #dc5343;
+}
+

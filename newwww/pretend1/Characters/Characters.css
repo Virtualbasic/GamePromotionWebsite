@@ -1,0 +1,12 @@
+body{
+    background-image: url(charactersimg/bckg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.buttonback{
+    background-color: transparent;
+    cursor:pointer;
+    border: none;
+}

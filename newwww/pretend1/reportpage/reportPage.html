@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReportPage</title>
+    <link rel="stylesheet" href="reportPage.css" >
+    <link rel="stylesheet" href="load.css">
+    <script src="load.js"></script>
+    <script src="reportBugs.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+</head>
+<body onload="myFunction()" style="margin:0;">
+    
+    <div id="loader"></div>
+    <div class="ReportBox" id="lgbox">
+            <h4 class="sent_notifications"></h4>
+            <form id="myForm">
+                <label>Name</label>
+                    <input id="name" type="text" placeholder="Enter Name">
+                    <br></br>
+                <label>Email</label>
+                    <input id="email" type="text" placeholder="Enter Email">
+                    <br></br>
+                <label>Subject</label>
+                    <input id="subject" type="text" placeholder="Enter Subject">
+                    <br></br>
+                <p>Message</p>
+                <textarea id="body" rows="5" placeholder="Type Message"></textarea>
+                <br></br>
+            </form>
+            <button type="button" onclick="SendEmail()" value="Send an Email">Submit</button>
+
+    </div>
+    <!--<div class="loader-wrapper">
+        <span class="loader">
+            <span  class = "loader-inner"></span>
+        </span>
+    </div>-->
+
+</body>
+</html>
+
+
+
+
